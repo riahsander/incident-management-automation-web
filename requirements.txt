@@ -1,0 +1,17 @@
+# API
+fastapi==0.141.1
+uvicorn==0.52.1
+pydantic==2.14.1
+
+# Automacao web
+playwright==1.62.0
+
+# Configuracao
+python-dotenv==1.2.4
+
+# Integracao com Microsoft Outlook / Windows COM
+pywin32==312
+
+# Calculo de periodo e perda transacional
+python-dateutil==2.9.0.post0
+holidays==0.107

@@ -1,0 +1,139 @@
+# ============================================================
+# VARIAVEIS DE AMBIENTE / CREDENCIAIS
+# ============================================================
+
+.env
+.env.*
+!.env.example
+
+
+# ============================================================
+# DADOS INTERNOS / GERADOS DURANTE A EXECUCAO
+# ============================================================
+
+data/info_incidente.json
+data/email_op.json
+data/operadoras.json
+
+# Mantem exemplos versionados
+!data/info_incidente.example.json
+!data/email_op.example.json
+!data/operadoras_examples.json
+
+# Se operadoras.json contiver dados sensiveis, habilitar:
+# data/operadoras.json
+# !data/operadoras.example.json
+
+
+# ============================================================
+# ARQUIVOS GERADOS PELA AUTOMACAO
+# ============================================================
+
+# Ignora o conteudo, mas permite preservar as pastas
+output/*
+
+!output/logs/
+!output/printGraf/
+!output/printOP/
+!output/printOP_detalhado/
+
+output/logs/*
+output/printGraf/*
+output/printOP/*
+output/printOP_detalhado/*
+
+!output/logs/.gitkeep
+!output/printGraf/.gitkeep
+!output/printOP/.gitkeep
+!output/printOP_detalhado/.gitkeep
+
+*.log
+
+
+# ============================================================
+# PYTHON
+# ============================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+
+# ============================================================
+# AMBIENTE VIRTUAL
+# ============================================================
+
+.venv/
+venv/
+env/
+
+
+# ============================================================
+# NODE.JS / REACT / VITE
+# ============================================================
+
+frontend/node_modules/
+frontend/dist/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+
+# ============================================================
+# PLAYWRIGHT
+# ============================================================
+
+playwright-report/
+test-results/
+blob-report/
+
+
+# ============================================================
+# PYINSTALLER / BUILD
+# ============================================================
+
+build/
+dist/
+*.exe
+*.manifest
+*.spec
+
+
+# ============================================================
+# IDE / EDITORES
+# ============================================================
+
+.vscode/
+.idea/
+
+*.swp
+*.swo
+
+
+# ============================================================
+# SISTEMA OPERACIONAL
+# ============================================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# ============================================================
+# ARQUIVOS TEMPORARIOS
+# ============================================================
+
+*.tmp
+*.temp
+*.bak
+*.old
+~$*

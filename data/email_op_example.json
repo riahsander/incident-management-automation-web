@@ -1,0 +1,22 @@
+{
+  "PARCEIRO_EXEMPLO_A": {
+    "emails": [
+      "noc@example.com",
+      "servicedesk@example.com",
+      "responsavel.a@example.com"
+    ]
+  },
+  "PARCEIRO_EXEMPLO_B": {
+    "emails": [
+      "monitoramento@example.com",
+      "operacao@example.com",
+      "responsavel.b@example.com"
+    ]
+  },
+  "PARCEIRO_EXEMPLO_C": {
+    "emails": [
+      "infraestrutura@example.com",
+      "suporte@example.com"
+    ]
+  }
+}
